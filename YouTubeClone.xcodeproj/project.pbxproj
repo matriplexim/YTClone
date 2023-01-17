@@ -79,6 +79,7 @@
 		F7FC407F2976C50B0049A3D8 = {
 			isa = PBXGroup;
 			children = (
+				F7FC40BB2976C7A80049A3D8 /* YTCloneTest */,
 				F7FC408A2976C50C0049A3D8 /* YouTubeClone */,
 				F7FC40A12976C5160049A3D8 /* YouTubeCloneTests */,
 				F7FC40AB2976C5160049A3D8 /* YouTubeCloneUITests */,
@@ -125,6 +126,13 @@
 				F7FC40AE2976C5160049A3D8 /* YouTubeCloneUITestsLaunchTests.swift */,
 			);
 			path = YouTubeCloneUITests;
+			sourceTree = "<group>";
+		};
+		F7FC40BB2976C7A80049A3D8 /* YTCloneTest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YTCloneTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
