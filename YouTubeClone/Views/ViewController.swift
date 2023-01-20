@@ -32,8 +32,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate, ModelPrese
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "VideoCell", for: indexPath)
-        cell.textLabel?.text = self.videos[indexPath.row].snippet.title
+        let cell = tableView.dequeueReusableCell(withIdentifier: "VideoCell", for: indexPath) as! VideoTableViewCell
+        cell.setCell(self.videos[indexPath.row])
         return cell
     }
     

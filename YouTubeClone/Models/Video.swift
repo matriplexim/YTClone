@@ -27,7 +27,7 @@ struct Item: Codable {
 
 // MARK: - Snippet
 struct Snippet: Codable {
-    let publishedAt: String
+    let publishedAt = Date()
     let channelID, title, description: String
     let thumbnails: Thumbnails
     let channelTitle, playlistID: String
