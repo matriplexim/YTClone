@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73174F2297973BF00DC6797 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73174F1297973BF00DC6797 /* Presenter.swift */; };
 		F7CAE06D297809A1007A383F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAE06C297809A1007A383F /* Constants.swift */; };
 		F7CAE06F29780CB8007A383F /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAE06E29780CB8007A383F /* Video.swift */; };
 		F7CAE07129780EBE007A383F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CAE07029780EBE007A383F /* Model.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F73174F1297973BF00DC6797 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		F7CAE06C297809A1007A383F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7CAE06E29780CB8007A383F /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		F7CAE07029780EBE007A383F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -82,6 +84,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F73174F3297A8CD400DC6797 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				F73174F1297973BF00DC6797 /* Presenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		F73174F4297A8CE300DC6797 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC408F2976C50C0049A3D8 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F73174F5297A8CEB00DC6797 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAE06E29780CB8007A383F /* Video.swift */,
+				F7CAE06C297809A1007A383F /* Constants.swift */,
+				F7CAE07029780EBE007A383F /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F7FC407F2976C50B0049A3D8 = {
 			isa = PBXGroup;
 			children = (
@@ -105,16 +133,15 @@
 		F7FC408A2976C50C0049A3D8 /* YouTubeClone */ = {
 			isa = PBXGroup;
 			children = (
+				F73174F5297A8CEB00DC6797 /* Models */,
+				F73174F4297A8CE300DC6797 /* Views */,
+				F73174F3297A8CD400DC6797 /* Presenters */,
+				F7FC40942976C5150049A3D8 /* Assets.xcassets */,
+				F7FC40912976C50C0049A3D8 /* Main.storyboard */,
+				F7FC40962976C5150049A3D8 /* LaunchScreen.storyboard */,
 				F7FC408B2976C50C0049A3D8 /* AppDelegate.swift */,
 				F7FC408D2976C50C0049A3D8 /* SceneDelegate.swift */,
-				F7FC408F2976C50C0049A3D8 /* ViewController.swift */,
-				F7FC40912976C50C0049A3D8 /* Main.storyboard */,
-				F7FC40942976C5150049A3D8 /* Assets.xcassets */,
-				F7FC40962976C5150049A3D8 /* LaunchScreen.storyboard */,
 				F7FC40992976C5150049A3D8 /* Info.plist */,
-				F7CAE06C297809A1007A383F /* Constants.swift */,
-				F7CAE06E29780CB8007A383F /* Video.swift */,
-				F7CAE07029780EBE007A383F /* Model.swift */,
 			);
 			path = YouTubeClone;
 			sourceTree = "<group>";
@@ -268,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FC40902976C50C0049A3D8 /* ViewController.swift in Sources */,
+				F73174F2297973BF00DC6797 /* Presenter.swift in Sources */,
 				F7FC408C2976C50C0049A3D8 /* AppDelegate.swift in Sources */,
 				F7FC408E2976C50C0049A3D8 /* SceneDelegate.swift in Sources */,
 				F7CAE07129780EBE007A383F /* Model.swift in Sources */,
