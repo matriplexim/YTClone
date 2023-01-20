@@ -22,6 +22,7 @@
 		F7FC40AF2976C5160049A3D8 /* YouTubeCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC40AE2976C5160049A3D8 /* YouTubeCloneUITestsLaunchTests.swift */; };
 		F7FEE495297A984D0010C4FA /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE494297A984D0010C4FA /* VideoTableViewCell.swift */; };
 		F7FEE497297AA8A50010C4FA /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE496297AA8A50010C4FA /* CacheManager.swift */; };
+		F7FEE499297AB4F50010C4FA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FEE498297AB4F50010C4FA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		F7FC40AE2976C5160049A3D8 /* YouTubeCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7FEE494297A984D0010C4FA /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		F7FEE496297AA8A50010C4FA /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		F7FEE498297AB4F50010C4FA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				F7FC408F2976C50C0049A3D8 /* ViewController.swift */,
+				F7FEE498297AB4F50010C4FA /* DetailViewController.swift */,
 				F7FEE494297A984D0010C4FA /* VideoTableViewCell.swift */,
 			);
 			path = Views;
@@ -307,6 +310,7 @@
 				F7FC408E2976C50C0049A3D8 /* SceneDelegate.swift in Sources */,
 				F7CAE07129780EBE007A383F /* Model.swift in Sources */,
 				F7FEE495297A984D0010C4FA /* VideoTableViewCell.swift in Sources */,
+				F7FEE499297AB4F50010C4FA /* DetailViewController.swift in Sources */,
 				F7CAE06D297809A1007A383F /* Constants.swift in Sources */,
 				F7CAE06F29780CB8007A383F /* Video.swift in Sources */,
 			);
